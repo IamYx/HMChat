@@ -1,0 +1,1 @@
+export class SendMessageResultModel { constructor(r66) { this._message = r66; } get clientAntispamResult() { return this._clientAntispamResult?.transform(); } get message() { return this._message.transform(); } } 

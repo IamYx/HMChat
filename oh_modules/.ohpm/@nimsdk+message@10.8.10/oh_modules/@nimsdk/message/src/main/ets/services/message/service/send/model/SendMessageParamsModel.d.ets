@@ -1,0 +1,1 @@
+import { V2NIMSendMessageParams } from '@nimsdk/base/'; import { MessageConfigModel } from './MessageConfigModel'; export declare class SendMessageParamsModel implements V2NIMSendMessageParams { messageConfig?: MessageConfigModel; } 

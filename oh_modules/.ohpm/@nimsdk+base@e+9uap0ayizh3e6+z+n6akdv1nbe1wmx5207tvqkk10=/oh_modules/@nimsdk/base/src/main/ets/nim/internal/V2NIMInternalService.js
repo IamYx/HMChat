@@ -1,0 +1,33 @@
+export const BizServicesName = [
+    'settingService',
+    'messageService',
+    'teamService',
+    'userService',
+    'friendService',
+    'clientAntispamUtil',
+    'signallingService',
+    'pushService',
+    'conversationService',
+    'conversationGroupService',
+    'localConversationService',
+    'aiService',
+    'ysfService',
+    'subscriptionService',
+    'searchService'
+];
+export const InnerServicesName = [
+    'storageService',
+    'storageUtil',
+    'httpService',
+    'pushService',
+    'notificationService',
+    'passthroughService',
+    'loginService',
+    'databaseService',
+    'reporterService',
+    'abtService',
+    'messageCreator',
+    'attachmentCreator',
+    'messageConverter',
+    'ntp'
+];

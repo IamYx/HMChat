@@ -1,0 +1,1 @@
+export class V2NIMMessagePinModel { constructor(x48, y48, createTime, updateTime, z48) { this._messageRefer = x48; this.operatorId = y48; this.createTime = createTime; this.updateTime = updateTime; this.serverExtension = z48; } get messageRefer() { return this._messageRefer.transform(); } } 

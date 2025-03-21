@@ -1,0 +1,1 @@
+import { V2NIMMessagePushConfig } from '@nimsdk/base/'; export declare class MessagePushConfigModel implements V2NIMMessagePushConfig { pushEnabled?: boolean; pushNickEnabled?: boolean; pushContent?: string; pushPayload?: string; forcePush?: boolean; forcePushContent?: string; forcePushAccountIds?: string[]; constructor(); } 

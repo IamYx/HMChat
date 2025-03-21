@@ -1,0 +1,1 @@
+export class V2NIMThreadMessageListOptionModel { constructor(q49) { this._messageRefer = q49; } get messageRefer() { return this._messageRefer.transform(); } } 

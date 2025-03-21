@@ -1,0 +1,1 @@
+import { V2NIMMessageRobotConfig } from '@nimsdk/base/'; export declare class MessageRobotConfigModel implements V2NIMMessageRobotConfig { } 

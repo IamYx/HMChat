@@ -1,0 +1,41 @@
+{
+  "license": "",
+  "author": "NetEase IM",
+  "name": "demo",
+  "description": "NetEase Instant Messaging (IM) SDK is a software development kit used to develop instant messaging functionality, providing developers with solutions to integrate features such as instant messaging, group messaging, conversations, user management, and friend lists, etc.",
+  "main": "",
+  "version": "1.2.0-beta",
+  "keywords": [
+    "netease",
+    "im",
+    "nimsdk"
+  ],
+  "homepage": "yunxin.163.com",
+  "repository": "https://github.com/netease-im/nim-harmony-demo",
+  "dynamicDependencies": {
+  },
+  "devDependencies": {},
+  "dependencies": {
+//    "@nimsdk/nim": "file:./libs/nim.har",
+//    "@nimsdk/base": "file:./libs/base.har",
+//    "@nimsdk/chatroom": "file:./libs/chatroom.har",
+//    "@nimsdk/friend": "file:./libs/friend.har",
+//    "@nimsdk/message": "file:./libs/message.har",
+//    "@nimsdk/user": "file:./libs/user.har",
+//    "@nimsdk/team": "file:./libs/team.har",
+//    "@nimsdk/conversation": "file:./libs/conversation.har",
+//    "@nimsdk/conversationgroup": "file:./libs/conversationgroup.har",
+//    "@nimsdk/signalling": "file:./libs/signalling.har",
+//    "@nimsdk/localconversation": "file:./libs/localconversation.har",
+    "@nimsdk/nim": "10.8.10",
+    "@nimsdk/base": "10.8.10",
+    "@nimsdk/chatroom": "10.8.10",
+    "@nimsdk/friend": "10.8.10",
+    "@nimsdk/message": "10.8.10",
+    "@nimsdk/user": "10.8.10",
+    "@nimsdk/team": "10.8.10",
+    "@nimsdk/signalling": "10.8.10",
+    "@nimsdk/localconversation": "10.8.10"
+  }
+}
+

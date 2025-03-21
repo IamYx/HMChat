@@ -1,0 +1,1 @@
+export class ModifyMessageModel { constructor(m42, text, n42, extension, subType, modifyTime, o42) { this.messageClientId = m42; this.text = text; this.raw = n42; this.extension = extension; this.subType = subType; this.modifyTime = modifyTime; this.modifyAccountId = o42; } } 

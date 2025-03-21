@@ -1,0 +1,1 @@
+import { NIM } from '@nimsdk/base/'; export declare function registerAspect(targetClass: Object, d21: NIM): void; 

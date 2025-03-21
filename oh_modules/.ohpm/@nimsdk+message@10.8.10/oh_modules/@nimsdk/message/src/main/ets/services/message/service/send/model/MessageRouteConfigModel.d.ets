@@ -1,0 +1,1 @@
+import { V2NIMMessageRouteConfig } from '@nimsdk/base/'; export declare class MessageRouteConfigModel implements V2NIMMessageRouteConfig { routeEnabled?: boolean; routeEnvironment?: string; constructor(); } 

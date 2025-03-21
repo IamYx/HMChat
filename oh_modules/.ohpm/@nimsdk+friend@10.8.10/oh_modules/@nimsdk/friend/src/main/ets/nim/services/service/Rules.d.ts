@@ -1,0 +1,1 @@
+import { Rules } from '@nimsdk/base'; export declare const addFriendRule: Rules; export declare const deleteFriendRule: Rules; export declare const setFriendInfoRule: Rules; export declare const applicationRule: Rules; export declare const deleteApplicationRule: Rules; export declare const getAddApplicationListRule: Rules; 

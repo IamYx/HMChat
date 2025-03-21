@@ -1,0 +1,1 @@
+    export declare enum ReplaceLastMessageRule {       SYNC = 0,       FETCH = 1,       MODIFY = 2 }       export declare enum ReplaceLastMessageMode {       REPLACE = 0,       RESEARCH = 1 } 

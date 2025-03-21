@@ -1,0 +1,1 @@
+import { RdbStoreManager, RdbTableImpl, TableType } from '@nimsdk/base'; export declare const RECEIPT_DETAIL_TABLE: TableType; export declare class ReceiptTable extends RdbTableImpl { constructor(h47: RdbStoreManager); createTable(): Promise<void>; } 

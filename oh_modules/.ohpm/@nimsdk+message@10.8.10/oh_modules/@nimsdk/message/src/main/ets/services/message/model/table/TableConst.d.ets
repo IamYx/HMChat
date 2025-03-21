@@ -1,0 +1,1 @@
+    export declare enum EM_CONFIG_ENABLE_UNREAD { INVALID = -1, OFF = 0, ON = 1 }       export declare enum EM_CONFIG_ENABLE_LAST_MESSAGE { INVALID = -1, OFF = 0, ON = 1 } 

@@ -1,0 +1,1 @@
+import { RdbTableImpl } from '@nimsdk/base'; export const RECEIPT_DETAIL_TABLE = { tableName: 'receipt_detail_table', columns: ['conversation_id', 'message_client_id', 'snapshot'] }; const s41 = '[ReceiptTable]'; export class ReceiptTable extends RdbTableImpl { constructor(h47) { super(h47); } async createTable() { } } 

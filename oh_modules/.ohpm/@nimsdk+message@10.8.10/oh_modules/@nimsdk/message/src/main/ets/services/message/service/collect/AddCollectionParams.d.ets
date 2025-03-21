@@ -1,0 +1,1 @@
+import { V2NIMAddCollectionParams } from '@nimsdk/base/'; export declare class AddCollectionParams implements V2NIMAddCollectionParams { collectionType: number; collectionData: string; serverExtension?: string; uniqueId?: string; constructor(w49: number, x49: string, y49?: string, uniqueId?: string); } 

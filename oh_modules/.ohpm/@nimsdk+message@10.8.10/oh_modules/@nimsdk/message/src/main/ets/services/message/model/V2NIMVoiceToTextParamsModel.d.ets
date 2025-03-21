@@ -1,0 +1,1 @@
+import { V2NIMVoiceToTextParams } from '@nimsdk/base'; export declare class V2NIMVoiceToTextParamsModel implements V2NIMVoiceToTextParams { duration: number; mimeType?: string | undefined; sampleRate?: string | undefined; sceneName?: string | undefined; voicePath?: string | undefined; voiceUrl?: string | undefined; constructor(duration: number); } 

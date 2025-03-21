@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "permission_internet_reason"
+    },
+    {
+      "name": "permission_get_network_info_reason",
+      "value": "permission_get_network_info_reason"
+    }
+  ]
+}

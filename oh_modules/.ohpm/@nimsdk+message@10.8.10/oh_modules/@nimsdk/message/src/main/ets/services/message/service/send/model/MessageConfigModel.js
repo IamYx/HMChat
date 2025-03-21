@@ -1,0 +1,1 @@
+export class MessageConfigModel { constructor() { this.readReceiptEnabled = false; this.historyEnabled = true; this.roamingEnabled = true; this.onlineSyncEnabled = true; this.offlineEnabled = true; this.unreadEnabled = true; this.lastMessageUpdateEnabled = true; } } 

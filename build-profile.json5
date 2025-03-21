@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yaoxiao/.ohos/config/default_MyNIMChat_bkGhNGXPpE1IHakOftpK7H7CXAR7vUFpVjV1dSlrIl0=.cer",
+          "storePassword": "0000001B1CABFA8ED629DCFFCCB3027AF91106EEA5F5C3FA13E3A8E9FB846ACD13F59C0E7C7777AB70A96C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC1E29EB41ABA3DB66DFF6E32BC21E1578949D376E526FC0D05505AAE06BEEA9168CE55CD8074F4",
+          "profile": "/Users/yaoxiao/.ohos/config/default_MyNIMChat_bkGhNGXPpE1IHakOftpK7H7CXAR7vUFpVjV1dSlrIl0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yaoxiao/.ohos/config/default_MyNIMChat_bkGhNGXPpE1IHakOftpK7H7CXAR7vUFpVjV1dSlrIl0=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export class StickTopTimeEntity { constructor(s12, updateTime, t12) { this._conversationId = s12; this._updateTime = updateTime; this._ext = t12; } get conversationId() { return this._conversationId; } get updateTime() { return this._updateTime; } get ext() { return this._ext; } } 

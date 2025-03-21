@@ -1,0 +1,1 @@
+export class MessagePushConfigModel { constructor() { this.pushEnabled = true; this.pushNickEnabled = true; this.forcePush = false; } } 

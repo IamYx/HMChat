@@ -1,0 +1,37 @@
+import dataRdb from '@ohos.data.relationalStore';
+import { ColumnInfo } from './ColumnInfo';
+import { RdbStoreInterface } from './RdbStoreInterface';
+import { Context } from '@ohos.abilityAccessCtrl';
+import { ValueType } from '@ohos.data.ValuesBucket';
+import { DatabaseOptions } from '../../sdk/V2NIMInterface';
+import { ReporterServiceInternal } from '../reporter/ReporterServiceInternal';
+import { IndexType, TableIndexType } from './const';
+import { RdbPredicates } from './RdbPredicates';
+export interface RdbStoreManager {
+    syncCreateDB(customDir: string, options?: DatabaseOptions, pluginLibs?: string[], reporterService?: ReporterServiceInternal): void;
+    getDb(dbName: string): Promise<RdbStoreInterface>;
+    deleteDb(context: Context, dbName: string): Promise<void>;
+    beginTransaction(): Promise<void>;
+    commit(): Promise<void>;
+    rollBack(): Promise<void>;
+    close(): Promise<void>;
+    createTable(tableName: string, autoincrement: string | boolean, columns: ColumnInfo[], primaries?: string[]): Promise<void>;
+    createTableIndex(index: TableIndexType): Promise<void>;
+    createTableUniqueIndex(index: TableIndexType): Promise<void>;
+    createIndex(tableName: string, index: IndexType): Promise<void>;
+    createUniqueIndex(tableName: string, index: IndexType): Promise<void>;
+    upgradeVersion(tableName: string, column: ColumnInfo): Promise<void>;
+    deleteTable(tableName: string): Promise<void>;
+    clearTable(tableName: string): Promise<void>;
+    backup(destName: string): Promise<void>;
+    restore(srcName: string): Promise<void>;
+    executeSql(sql: string, bindArgs?: ValueType[]): Promise<void>;
+    insert(tableName: string, values: dataRdb.ValuesBucket[]): Promise<number>;
+    insertOrReplace(tableName: string, values: dataRdb.ValuesBucket[]): Promise<number>;
+    update(values: dataRdb.ValuesBucket, predicates: RdbPredicates): Promise<number>;
+    query(predicates: RdbPredicates, columns?: string[] | undefined): Promise<dataRdb.ValuesBucket[]>;
+    queryAll(tableName: string): Promise<dataRdb.ValuesBucket[]>;
+    queryBySql(sql: string, bindArgs?: dataRdb.ValueType[]): Promise<dataRdb.ValuesBucket[]>;
+    delete(predicates: RdbPredicates): Promise<number>;
+    deletes(tableName: string, predicates: RdbPredicates[]): Promise<void>;
+}

@@ -1,0 +1,1 @@
+import { NIM } from '@nimsdk/base'; import { V2NIMMessageModel } from '../../model/V2NIMMessageModel'; export declare class SendCloud { private core; constructor(t66: NIM); sendMessage(message: V2NIMMessageModel): Promise<V2NIMMessageModel>; } 

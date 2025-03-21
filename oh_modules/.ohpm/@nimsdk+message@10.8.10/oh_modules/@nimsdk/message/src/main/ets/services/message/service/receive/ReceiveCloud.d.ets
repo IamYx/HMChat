@@ -1,0 +1,1 @@
+import { NIM, V2NIMMessage } from '@nimsdk/base'; export declare class ReceiveCloud { private core; constructor(i64: NIM); sendP2PBatchMarkRead(h64: V2NIMMessage[]): Promise<void>; sendTeamBatchMarkRead(g64: V2NIMMessage[]): Promise<void>; } 

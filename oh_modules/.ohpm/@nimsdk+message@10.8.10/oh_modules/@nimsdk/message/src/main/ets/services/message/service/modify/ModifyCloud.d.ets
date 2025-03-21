@@ -1,0 +1,1 @@
+import { NIM, V2NIMSendMessageResult } from "@nimsdk/base"; import { V2NIMMessageModel } from "../../model/V2NIMMessageModel"; export declare class ModifyCloud { private core; constructor(a59: NIM); modifyMessage(message: V2NIMMessageModel): Promise<V2NIMSendMessageResult>; } 

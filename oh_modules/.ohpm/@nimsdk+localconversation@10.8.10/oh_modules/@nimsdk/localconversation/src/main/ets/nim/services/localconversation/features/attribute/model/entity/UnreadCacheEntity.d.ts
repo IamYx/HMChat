@@ -1,0 +1,1 @@
+export declare class StickTopTimeEntity { private _conversationId; private _updateTime; private _ext; constructor(s12: string, updateTime: number, t12: string); get conversationId(): string; get updateTime(): number; get ext(): string; } 

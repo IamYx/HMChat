@@ -1,0 +1,1 @@
+import { ColumnInfo, NIMEStrAnyObj, RdbStoreManager, RdbTableImpl } from '@nimsdk/base'; export declare const SystemMessageColumns: ColumnInfo[]; export declare class SystemMessageTable extends RdbTableImpl { constructor(h17: RdbStoreManager, tableName: string); createTable(): Promise<void>; saveSystemMessage(d17: NIMEStrAnyObj): Promise<void>; } 

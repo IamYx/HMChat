@@ -1,0 +1,1 @@
+export declare class CollectionOption { beginTime: number; endTime: number; direction: number; limit?: number; collectionType?: number; excludeId: number; constructor(g50: number, endTime: number, direction: number, h50: number, limit?: number, i50?: number); } 

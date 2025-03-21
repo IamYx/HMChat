@@ -1,0 +1,1 @@
+import { NIM, V2NIMMessage, V2NIMMessageRevokeNotification, V2NIMMessageRevokeParams } from '@nimsdk/base'; export declare class RevokeCloud { private core; constructor(u65: NIM); revokeMessage(message: V2NIMMessage, params?: V2NIMMessageRevokeParams): Promise<V2NIMMessageRevokeNotification[]>; } 

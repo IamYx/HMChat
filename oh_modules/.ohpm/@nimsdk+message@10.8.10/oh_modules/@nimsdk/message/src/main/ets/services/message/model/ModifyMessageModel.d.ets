@@ -1,0 +1,1 @@
+export declare class ModifyMessageModel { messageClientId: string; text?: string; raw?: string; extension?: string; subType?: number; modifyTime?: number; modifyAccountId?: string; constructor(m42: string, text?: string, n42?: string, extension?: string, subType?: number, modifyTime?: number, o42?: string); } 

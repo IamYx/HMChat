@@ -1,0 +1,3 @@
+string page_show 0x03000000
+string permission_get_network_info_reason 0x03000001
+string permission_internet_reason 0x03000002

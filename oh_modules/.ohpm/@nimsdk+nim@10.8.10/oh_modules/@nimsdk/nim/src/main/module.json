@@ -1,0 +1,44 @@
+{
+	"app": {
+		"bundleName": "im.netease.nim.demo",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50000012,
+		"targetAPIVersion": 50001013,
+		"apiReleaseType": "Release",
+		"compileSdkVersion": "5.0.1.115",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app"
+	},
+	"module": {
+		"name": "nim",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet",
+			"2in1"
+		],
+		"requestPermissions": [
+			{
+				"name": "ohos.permission.INTERNET",
+				"reason": "$string:permission_internet_reason",
+				"usedScene": {
+					"when": "always"
+				}
+			},
+			{
+				"name": "ohos.permission.GET_NETWORK_INFO",
+				"reason": "$string:permission_get_network_info_reason",
+				"usedScene": {
+					"when": "always"
+				}
+			}
+		],
+		"packageName": "@nimsdk/nim",
+		"installationFree": false,
+		"virtualMachine": "ark12.0.2.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

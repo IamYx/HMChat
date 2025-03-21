@@ -1,0 +1,1 @@
+export class V2NIMMessageQuickCommentModel { constructor(a49, b49, index, c49, createTime, d49) { this._messageRefer = a49; this.operatorId = b49; this.index = index; this.serverExtension = c49; this.createTime = createTime; this._pushConfig = d49; } get messageRefer() { return this._messageRefer.transform(); } get pushConfig() { return this._pushConfig?.transform(); } } 

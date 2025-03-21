@@ -1,0 +1,1 @@
+import { V2NIMClientAntispamOperateType, V2NIMClientAntispamResult } from '@nimsdk/base/'; export declare class ClientAntispamResultModel implements V2NIMClientAntispamResult { operateType: V2NIMClientAntispamOperateType; replacedText: string; constructor(g66: V2NIMClientAntispamOperateType, h66: string); transform(): V2NIMClientAntispamResult; } 

@@ -1,0 +1,32 @@
+import { ExceptionData, NIM, NIMEBaseListener, NIMServiceConfig, NIMServiceName, ReporterAPIEvent, ReporterEvent, ReporterServiceInternal, V2Service } from '@nimsdk/base';
+export declare class ReporterServiceImpl extends V2Service<NIMEBaseListener> implements ReporterServiceInternal {
+    private rdb?;
+    private uid?;
+    private active_id;
+    private defaultExceptionUploadSize;
+    private isConnected;
+    private timerManager;
+    private apiTraceQueue;
+    private bizTraceQueue;
+    private faultLoggerCollect?;
+    private config;
+    private aspect;
+    private exceptionService;
+    constructor(b106: NIM, c106: NIMServiceName, d106: NIMServiceConfig);
+    addDatabaseAspect(y105: Object, z105: string): void;
+    addAspect(v105: Object, w105: string): void;
+    addException(r105: ExceptionData): void;
+    addAPIEvent(p105: ReporterAPIEvent): void;
+    addBizEvent(n105: ReporterEvent): void;
+    onLoginStart(j105: string): Promise<void>;
+    onLoginFinished(i105: string): Promise<void>;
+    onLogout(): void | Promise<void>;
+    private addExceptionEvent;
+    private sessionConfig;
+    private handleEvents;
+    private stopReporterLoop;
+    private uploadEvents;
+    private requestStrategy;
+    private startReporterLoop;
+    private getExperimentForKey;
+}

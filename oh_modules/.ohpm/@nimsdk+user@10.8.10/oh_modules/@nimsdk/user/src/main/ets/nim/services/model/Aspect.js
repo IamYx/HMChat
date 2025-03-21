@@ -1,0 +1,1 @@
+const i = [ 'upsertUsers', 'updateUser', 'queryUser', 'queryAll', 'queryUserList', 'searchUserByOption' ]; const j = [ 'addBlock', 'removeBlock', 'getBlockList', 'setAccountMuteMode', 'getMuteList' ]; export function registerAspect(table, targetClass, m) { try { } catch (error) { m.logger.error('Failed to register user database aspects:', error); } } 

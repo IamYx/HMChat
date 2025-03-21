@@ -1,0 +1,1 @@
+import { V2NIMMessageConfig } from '@nimsdk/base/'; export declare class MessageConfigModel implements V2NIMMessageConfig { readReceiptEnabled?: boolean; historyEnabled?: boolean; roamingEnabled?: boolean; onlineSyncEnabled?: boolean; offlineEnabled?: boolean; lastMessageUpdateEnabled?: boolean; unreadEnabled?: boolean; private constructor(); } 

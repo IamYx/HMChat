@@ -1,0 +1,1 @@
+export class MessageAntispamConfigModel { constructor() { this.antispamEnabled = true; } } 

@@ -1,0 +1,1 @@
+export class V2NIMVoiceToTextParamsModel { constructor(duration) { this.duration = duration; } } 

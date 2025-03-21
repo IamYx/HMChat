@@ -1,0 +1,1 @@
+export class V2NIMThreadMessageListResultModel { constructor(r49, timestamp, s49, t49) { this._message = r49; this.timestamp = timestamp; this.replyCount = s49; this.replyList = t49; } get message() { return this._message.transform(); } } 

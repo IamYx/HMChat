@@ -1,0 +1,1 @@
+export { default as V2NIMTeamServiceImpl } from './src/main/ets/nim/services/V2NIMTeamServiceImpl'; 

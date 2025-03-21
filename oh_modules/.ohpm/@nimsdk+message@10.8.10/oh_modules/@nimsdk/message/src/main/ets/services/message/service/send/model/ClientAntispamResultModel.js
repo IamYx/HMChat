@@ -1,0 +1,1 @@
+export class ClientAntispamResultModel { constructor(g66, h66) { this.operateType = g66; this.replacedText = h66; } transform() { const f66 = {}; f66.operateType = this.operateType; f66.replacedText = this.replacedText; return f66; } } 

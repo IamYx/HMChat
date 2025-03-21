@@ -1,0 +1,1 @@
+export class TeamConst { } TeamConst.DEF_MEMBER_UPTIME = 0; 

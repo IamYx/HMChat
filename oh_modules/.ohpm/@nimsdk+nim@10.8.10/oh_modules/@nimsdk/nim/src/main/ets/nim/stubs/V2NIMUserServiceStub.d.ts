@@ -1,0 +1,36 @@
+import { NIM, NIMServiceConfig, NIMServiceName, Packet, V2NIMP2PMessageMuteMode, V2NIMUser, V2NIMUserListener, V2NIMUserSearchOption, V2NIMUserServiceInternal, V2NIMUserUpdateParams, V2Service } from '@nimsdk/base';
+import { HashMap } from '@kit.ArkTS';
+export declare class V2NIMUserServiceStub extends V2Service<V2NIMUserListener> implements V2NIMUserServiceInternal {
+    constructor(k137: NIM, l137: NIMServiceName, m137: NIMServiceConfig);
+    v2IGetUserList(j137: string[]): Promise<V2NIMUser[]>;
+    v2IGetUserListFromCloud(i137: string[]): Promise<V2NIMUser[]>;
+    v2IUpdateSelfUserProfile(h137: V2NIMUserUpdateParams): Promise<void>;
+    v2IAddUserToBlockList(g137: string): Promise<void>;
+    v2IRemoveUserFromBlockList(f137: string): Promise<void>;
+    v2IGetBlockList(): Promise<string[]>;
+    v2ISearchUserByOption(e137: V2NIMUserSearchOption): Promise<V2NIMUser[]>;
+    v2IIsMute(d137: string): Promise<boolean>;
+    v2IIsMuteBatch(c137: string[]): Promise<HashMap<string, boolean>>;
+    v2IRefreshUserInfo(a137: string, b137?: number): Promise<void>;
+    v2IRefreshUserInfoBatch(z136: HashMap<string, number>): Promise<void>;
+    v2ISyncSelfUserInfoHandler(x136: Packet, y136: boolean): Promise<void>;
+    v2ISyncBlockAndMuteListHandler(v136: Packet, w136: boolean): Promise<void>;
+    v2ISetUsersBySync(t136: V2NIMUser[], u136: number): Promise<void>;
+    v2IGetUsers(s136: string[]): Promise<V2NIMUser[]>;
+    v2IIsBlocked(r136: string): Promise<boolean>;
+    v2IGetMuteList(): Promise<string[]>;
+    v2ISetAccountMuteMode(p136: string, q136: V2NIMP2PMessageMuteMode): Promise<void>;
+    v2IGetUser(o136: string): Promise<V2NIMUser | undefined>;
+    v2IGetLocalUser(n136: string): Promise<V2NIMUser | undefined>;
+    v2IGetLocalUsers(m136: string[]): Promise<HashMap<string, V2NIMUser | undefined>>;
+    getUserList(l136: string[]): Promise<V2NIMUser[]>;
+    getUserListFromCloud(k136: string[]): Promise<V2NIMUser[]>;
+    updateSelfUserProfile(j136: V2NIMUserUpdateParams): Promise<void>;
+    addUserToBlockList(i136: string): Promise<void>;
+    removeUserFromBlockList(h136: string): Promise<void>;
+    getBlockList(): Promise<string[]>;
+    searchUserByOption(g136: V2NIMUserSearchOption): Promise<V2NIMUser[]>;
+    onLoginStart(f136: string): Promise<void>;
+    onLoginFinished(e136: string): Promise<void>;
+    onLogout(): void;
+}

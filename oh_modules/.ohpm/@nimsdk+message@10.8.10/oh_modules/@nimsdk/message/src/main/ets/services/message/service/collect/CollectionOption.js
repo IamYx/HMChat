@@ -1,0 +1,1 @@
+export class CollectionOption { constructor(g50, endTime, direction, h50, limit, i50) { this.beginTime = g50; this.endTime = endTime; this.direction = direction; this.limit = limit; this.excludeId = h50; this.collectionType = i50; } } 

@@ -1,0 +1,1 @@
+export { default as V2NIMUserServiceImpl } from './src/main/ets/nim/services/service/V2NIMUserServiceImpl'; 

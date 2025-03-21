@@ -1,0 +1,1 @@
+export { default as V2NIMLocalConversationServiceImpl } from './src/main/ets/nim/services/localconversation/V2NIMLocalConversationServiceImpl'; 

@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.js"></script>
+    <style>
+        div {
+            margin: 10px 0;
+        }
+    </style>
+    <script src="./vconsole.min.js"></script>
+    <script>
+        // init vConsole
+        var vConsole = new VConsole();
+        console.log('互动白板VConsole');
+    </script>
+</head>
+
+<body>
+    <input type="file" id="file" onchange="window.fileChange()"/>
+    <div class='buttonDiv'>
+        <button onclick="window.fileUpload()">点击上传</button>
+        <button onclick="window.pauseUpload()">暂停上传</button>
+        <button onclick="window.resumeUpload()">继续上传</button>
+        <button onclick="window.printStorage()">打印存储</button>
+    </div>
+    <div>
+        <span>上传进度:</span>
+        <span id='progress'></span>
+    </div>
+    <div>
+        <span>上传结果:</span>
+        <a id='resultUrl' href='' target="_blank"></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+import { Rule, Rules } from '@nimsdk/base'; export declare const stringRule: Rule; export declare const strArrayRule: Rule; export declare const userProfileRule: Rules; export declare const getUserListCloud: Rules; 

@@ -1,0 +1,10 @@
+export { NIMSdk } from './src/main/ets/nim/NIMSdk';
+export { V2NIMDatabaseServiceImpl } from './src/main/ets/nim/database/V2NIMDatabaseServiceImpl';
+export { V2NIMHttpServiceImpl } from './src/main/ets/nim/http/V2NIMHttpServiceImpl';
+export { LoggerServiceImpl } from './src/main/ets/nim/logger/LoggerServiceImpl';
+export { default as V2NIMStorageServiceImpl } from './src/main/ets/nim/storage/V2NIMStorageServiceImpl';
+export { default as V2NIMStorageUtilImpl } from './src/main/ets/nim/storage/V2NIMStorageUtilImpl';
+export { V2NIMPushServiceImpl } from './src/main/ets/nim/push/V2NIMPushServiceImpl';
+export { default as V2NIMSyncServiceImpl } from './src/main/ets/nim/sync/V2NIMSyncServiceImpl';
+export { default as V2NIMNotificationServiceImpl } from './src/main/ets/nim/notification/V2NIMNotificationServiceImpl';
+export { default as V2NIMSettingServiceImpl } from './src/main/ets/nim/setting/V2NIMSettingServiceImpl';

@@ -1,0 +1,1 @@
+export { default as V2NIMFriendServiceImpl } from './src/main/ets/nim/services/service/V2NIMFriendServiceImpl'; 

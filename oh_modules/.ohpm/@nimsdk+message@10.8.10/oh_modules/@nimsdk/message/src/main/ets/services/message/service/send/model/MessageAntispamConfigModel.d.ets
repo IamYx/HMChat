@@ -1,0 +1,1 @@
+import { V2NIMMessageAntispamConfig } from '@nimsdk/base/'; export declare class MessageAntispamConfigModel implements V2NIMMessageAntispamConfig { antispamEnabled?: boolean; antispamBusinessId?: string; antispamCustomMessage?: string; antispamCheating?: string; antispamExtension?: string; constructor(); } 

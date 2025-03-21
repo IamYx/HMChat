@@ -1,0 +1,1 @@
+import { NIM, V2NIMVoiceToTextParams } from '@nimsdk/base'; export declare class TranslateService { private core; constructor(c68: NIM); voiceToText(params: V2NIMVoiceToTextParams): Promise<string>; } 

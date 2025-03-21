@@ -1,0 +1,1 @@
+export class V2NIMClearHistoryNotificationModel { constructor(k47, l47, m47) { this.conversationId = k47; this.deleteTime = l47; this.serverExtension = m47; } } 

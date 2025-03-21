@@ -1,0 +1,1 @@
+import { V2NIMClearHistoryNotification } from '@nimsdk/base'; export declare class V2NIMClearHistoryNotificationModel implements V2NIMClearHistoryNotification { conversationId: string; deleteTime: number; serverExtension?: string | undefined; constructor(k47: string, l47: number, m47?: string | undefined); } 

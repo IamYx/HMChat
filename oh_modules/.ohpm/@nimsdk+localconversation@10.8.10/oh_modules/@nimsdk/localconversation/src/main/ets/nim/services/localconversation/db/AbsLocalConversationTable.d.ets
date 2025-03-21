@@ -1,0 +1,1 @@
+import { RdbStoreManager, RdbTableImpl } from '@nimsdk/base'; export declare abstract class AbsLocalConversationTable extends RdbTableImpl { tableName: string; constructor(t: RdbStoreManager); createTable(): Promise<void>; } 

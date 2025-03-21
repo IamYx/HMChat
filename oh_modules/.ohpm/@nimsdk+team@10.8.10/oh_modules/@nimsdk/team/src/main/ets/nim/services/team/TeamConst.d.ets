@@ -1,0 +1,1 @@
+export declare class TeamConst { static DEF_MEMBER_UPTIME: number; } 
